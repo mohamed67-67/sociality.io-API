@@ -1,0 +1,24 @@
+{
+  "name": "sociality.io-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed67-67/sociality.io-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed67-67/sociality.io-API/issues"
+  },
+  "homepage": "https://github.com/mohamed67-67/sociality.io-API#readme"
+}

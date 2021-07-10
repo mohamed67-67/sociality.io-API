@@ -1,4 +1,4 @@
-import jsonServer from 'json-server'
+const jsonServer = require('json-server')
 
 const server = jsonServer.create();
 
@@ -8,7 +8,7 @@ const middleWare = jsonServer.defaults();
 
 const PORT = process.env.PORT || 3000;
 
-server.use(Router);
 server.use(middleWare);
+server.use(Router);
 
 server.listen(PORT)
